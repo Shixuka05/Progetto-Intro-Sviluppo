@@ -1,0 +1,284 @@
+/* Stili di base per la pagina */
+body, html {
+    background-color: #A8C3A0;
+    font-family:Georgia, Times, serif;
+  
+}
+header {
+    display: block;
+    align-items: center;
+    width: auto;
+    height: 120px;
+    justify-content: center;
+    background-color: #A8C3A0;
+}
+.logo {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+   margin-left: 40% ;
+   padding-top: 5px;
+    cursor: pointer; 
+}
+nav {
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 30% 1% 30%;
+    width: auto;
+    height: 50px;
+    background-color: #A8C3A0;
+    border-bottom:#355E3B solid 5px ; 
+
+}
+.menu a {
+    font-family: Georgia, Times, serif;
+    text-decoration: none;
+    font-size:22px;
+    text-align:center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    color: black;
+
+}
+.primo {
+    display: block;   
+    text-align: center;
+    font-family:Georgia, Times, serif;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 30px;
+    color: black;
+    background-color: #F4F1EC;
+    font-style: italic;
+}
+article{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, Times, serif;
+    color: black;
+    margin: auto;
+    width: 80%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+ 
+}
+.article{
+    font-family: Georgia, Times, serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top:100px ;
+    margin-bottom: 50px;
+    color: black;
+
+}
+
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px ;
+    font-family: Georgia, Times, serif;
+}
+
+
+.donna, .uomo, .new {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+section .decollet {    
+    width: 10%;
+    height: auto;
+    border-radius:10px ;
+    cursor: pointer;
+
+}
+section .sandali  {
+    width: 10%;
+    height: auto;
+    border-radius:10px ;
+    cursor: pointer;
+}
+section .sneakersdonna {
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+section .ciabattedonna {
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+section .stivali {
+    width: 10%;
+    height: auto;
+    border-radius:10px ;
+    cursor: pointer;
+}
+section .sneakersuomo {
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+section .mocassini {
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+section .ciabatteuomo {
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.sezioniscarpe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 26%;
+    width: 50%;
+    height: 50px;
+    margin-bottom: 100px;
+    
+}
+section .urbanwoman {
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+section .urbanman {
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.sezioniscarpe2 {
+    display: flex;
+    gap: 250px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-left: 40%;
+}
+p{
+    font-family: Georgia, Times, serif;
+    font-size: 20px;
+    color:black;
+    align-items: center;
+} 
+.conclusione {
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ 
+}
+.conclusione h2{
+    text-align: center;
+    padding-bottom: 10px ;
+    font-family: Georgia, Times, serif;
+    font-size: 20px;
+    color: black;
+}
+.conclusione p {
+    font-family: Georgia, Times, serif;
+    font-size: 18px;
+    color: black;
+    text-align:center;
+    align-items: center;
+    margin: 20px;
+    width: auto;
+}
+.cta{
+    font-family: Georgia, Times, serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #F4F1EC;
+    padding: 30px;
+    margin:30px;   
+}
+
+button{
+    background-color: #D58E65;
+    color: white;
+    font-family: Georgia, Times, serif;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+footer {
+    background-color: #355E3B;
+    width: auto;
+    height: 300px;
+    margin: auto;
+    padding: 50px;
+}
+.social {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 50px;
+    }
+.social img  {
+    width: 50px;
+    max-width: 150px;
+    height: auto;
+    cursor: pointer;
+} 
+.footer{
+    text-align: center;
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.colonne{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px ;
+    height: auto;
+    cursor: pointer;
+    width: 40%;
+    margin-left:30% ;
+}
+.colonna1, .colonna2 {
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
+}
